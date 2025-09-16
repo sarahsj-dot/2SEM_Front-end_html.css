@@ -1,0 +1,83 @@
+Lucas lessons- VScode comands
+
+ctrl B: esconder aba de arquivos
+ctrl - ou + : aumentar e diminuir
+alt z: quebra de linha
+alt + shift + F: deixar mais bonitinho o codigo
+
+Open Settings (json): estudar
+
+quando o lucas falar TAG:
+
+TAG UNICA -- não tem fechamento
+<!DOCTYPE html>
+não tem como ter children
+
+TAG FECHAMENTO
+</head> abriu
+<body>
+  (children)  
+</body>
+</html> fechou
+
+
+parte financeira e nota fiscal -- XLM
+
+método soap
+a google audita o site e coloca o melhor em SEO
+
+<<<<<<< TAGS >>>>>
+
+a cor laranja pastel do codigo nesse tema, são os atributos.
+<!DOCTYPE html> nesse caso, o html está destacado em laranja pastel, atribuindo
+o tipo do documento para html.
+
+
+tags coluna: tag comentario - ctrl ;
+      tag <h1>H1</h1> para titulos (Só exite um h1 (unico titulo), mas podem haver varios h2)
+      tag <p>Este é um parágrafo!</p> de paragrafo - para inserir textos
+        atalho para inserir paragrafos e palavras<!-- <p>lorem* para quant de paragrafos. loremNumero para quant 
+              de palavras
+            </p> -->
+
+tags in line:  <strong>Negrito</strong>
+       <em>Italico</em>
+       <u>Sublinhado</u>
+       <small>Texto pequeno</small>
+
+
+
+       ATALHOOOOOO SHIFT ALT SETINHA PARA BAIXO: copia o comando 
+
+
+
+       Hiperlinlk: caminho
+
+       index.html
+       source / assets / "images
+
+       ./ para frente(avança para o caminho)
+       .. para atras(volta o caminho)
+
+       se eu colocar as IMAGES no source, eu usaria somente ./
+       porque é onde eu estou
+
+
+       </head>
+<body>
+    <nav>
+
+        <a href="./about.html">about</a>
+        <a href="./contact.html">contact</a>
+        <a href="https://www.google.com">contact</a>
+
+    </nav>
+
+Target="blank" redireciona o link para uma nova aba
+  <a target="_blank" href="./about.html">about</a>
+
+
+Atividade: Criar pasta Portifolio > src > pages - index.html - contact.html - about.html
+
+
+

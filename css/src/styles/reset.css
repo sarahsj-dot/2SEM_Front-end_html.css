@@ -1,0 +1,8 @@
+* {
+    /* o html já vem com um estilo default */
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
