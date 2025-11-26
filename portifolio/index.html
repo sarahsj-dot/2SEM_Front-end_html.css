@@ -1,22 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8" />
+  <title>Sarah | Developer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfolio" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
-    <nav>
-        <a target="_blank" href="./src/pages/about.html">about</a>
-        <a target="_blank" href="./src/pages/contact.html">contact</a>
-        <a target="_blank" href="https://github.com/sarahsj-dot">github</a>
-    </nav>
+  <!-- side icons bar -->
+  <aside class="side-bar" aria-label="External links">
+    <ul>
+      <li><a href="https://github.com/sarahsj-dot" aria-label="GitHub"><img class="icon" src="/src/assets/icons/github.svg" alt="GitHub" /></a></li>
+      <li><a href="https://dribbble.com" aria-label="Dribbble"><img class="icon" src="/src/assets/icons/dribbble.svg" alt="Dribbble" /></a></li>
+      <li><a href="https://www.figma.com" aria-label="Figma"><img class="icon" src="/src/assets/icons/figma.svg" alt="Figma" /></a></li>
+      <li><a href="https://discord.com" aria-label="Discord"><img class="icon" src="/src/assets/icons/discord.svg" alt="Discord" /></a></li>
+    </ul>
+  </aside>
 
-    <h1 align="center"><br>Portifólio: Sarah Santos</h1>
-   
+  <!-- Header -->
+  <header class="top-header">
+    <div class="inner">
+      <a href="#home" class="brand-link"><span class="brand-icon"></span> <span class="brand-text">SarahSantos</span></a>
 
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home" class="nav-link active">#home</a></li>
+          <li><a href="#projects" class="nav-link">#works</a></li>
+          <li><a href="#about-me" class="nav-link">#about-me</a></li>
+          <li><a href="#contacts" class="nav-link">#contacts</a></li>
+          <li><button type="button" class="lang-badge">EN ▾</button></li>
+        </ul>
+      </nav>
 
+      <button class="mobile-trigger" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
 
-    
+  <main id="home">
+    <!-- image hero section -->
+    <section class="hero section">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span>Sarah here!</span>
+            <hr>
+            <span class="accent">Welcome to my portfolio 🙆🏻‍♀️</span>
+            
+        </h1>
+          <p class="subtitle">
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <button class="btn outlined" onclick="document.querySelector('#contacts').scrollIntoView({behavior:'smooth'})">Contact me</button>
+        </div>
+
+        <div class="hero-figure">
+          <div class="shape s1"></div>
+          <div class="shape s2"></div>
+          <img src="/src/assets/imgs/profile-removebg-preview.png" alt="Profile figure" class="main-hero-img" />
+
+          <div class="status on-figure">
+            <span class="status-dot"></span>
+            <span>Studies in progress...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- quote section -->
+    <section class="quote-wrap section">
+      <figure class="quote-box">
+        <blockquote>Something soon</blockquote>
+        <figcaption>— Sarah</figcaption>
+      </figure>
+    </section>
+
+    <!-- projects section -->
+    <section id="projects" class="projects section">
+      <div class="section-header">
+        <h2 class="hash-title"><span class="hash">#</span>projects</h2>
+        <a class="view-all" href="#">View all ⟶</a>
+      </div>
+
+      <div class="cards">
+        <article class="project-card">
+          <div class="card-top"><img src="/src/assets/imgs/project.png" alt="Senai Exchange" /></div>
+          <div class="stack-tags">HTML CSS</div>
+          <div class="card-body">
+            <h3 class="card-title">Senai Exchange</h3>
+            <p class="desc">Plataforma de troca de conhecimentos</p>
+            <div class="actions">
+              <a href="#" class="mini-btn live"> ⟷</a>
+              <a href="#" class="mini-btn cached"> ≫</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="skills section">
+      <div class="section-header">
+        <h2 class="hash-title"><span class="hash">#</span>skills</h2>
+      </div>
+
+      <div class="skills-area">
+        <div class="decor">
+          <div class="dot-grid dg-a"></div>
+          <div class="square-outline so-a"></div>
+          <div class="square-outline so-b"></div>
+          <div class="dot-grid dg-b"></div>
+          <div class="square-outline so-c"></div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-box">
+            <h4>Languages</h4>
+            <ul><li>Java</li><li>C#</li></ul>
+          </div>
+          <div class="skill-box">
+            <h4>Databases</h4>
+            <ul><li>MySQL</li><li>SQL Server</li></ul>
+          </div>
+          <div class="skill-box">
+            <h4>Tools</h4>
+            <ul><li>VSCode</li><li>IntelliJ IDEA</li><li>Visual Studio</li><li>Figma</li><li>Git</li></ul>
+          </div>
+          <div class="skill-box">
+            <h4>Other</h4>
+            <ul><li>HTML CSS</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about-me section -->
+    <section id="about-me" class="about section">
+      <div class="section-header">
+        <h2 class="hash-title"><span class="hash">#</span>about‑me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-greet">Hello, i’m Sarah!</p>
+          <p>I’m a Systems Development Student.</p>
+          <button class="btn outlined small">Read more ⟶</button>
+        </div>
+
+        <div class="about-figure">
+          <div class="dot-grid dg-about"></div>
+          <img src="/src/assets/imgs/cat-removebg-preview.png" alt="About figure" />
+        </div>
+      </div>
+    </section>
+
+    <!-- contacts section -->
+    <section id="contacts" class="contacts section">
+      <div class="section-header">
+        <h2 class="hash-title"><span class="hash">#</span>contacts</h2>
+      </div>
+
+      <div class="contacts-grid">
+        <div class="contact-text">
+          <ul class="bullets">
+            <li></li><li></li><li></li><li></li>
+          </ul>
+          <p>I'm open to collaboration and new opportunities.</p>
+        </div>
+        <div class="contact-box">
+          <h4>Message me here</h4>
+          <ul>
+            <li>✉ sarah.sdejesusp@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="foot-left">
+        <div class="foot-brand">Sarah</div>
+        <div class="foot-role">Systems Development Student</div>
+      </div>
+      <div class="foot-media">
+        <div class="media-links">
+          <a href="https://github.com/sarahsj-dot">GitHub</a>
+          <a href="https://www.figma.com">Figma</a>
+          <a href="https://discord.com">Discord</a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span>. Inspired by Figma Community</div>
+  </footer>
+
+  <script src="/script.js/main.js"></script>
 </body>
 </html>
